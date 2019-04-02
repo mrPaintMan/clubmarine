@@ -6,7 +6,15 @@ class Test extends React.Component {
     render() {
         return (
             <div>
-                <h1 style= {{color: "red"}} className="display-3">KIIIng</h1>
+                <div id="header">
+                    här haru måns!
+                </div>
+                <div id="body">
+                    här ska menyn vara
+                </div>
+                <div id="footer">
+                    här ska footern vara
+                </div>
             </div>
         ); 
     }
