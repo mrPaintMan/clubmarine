@@ -5,7 +5,7 @@ class Test extends React.Component {
     render() {
         return (
             <div>
-                <h1 style= {{color: "red"}} className="cssTest">TESTING</h1>
+                <h1 style= {{color: "red"}} className="cssTest">KIIIng</h1>
             </div>
         ); 
     }
