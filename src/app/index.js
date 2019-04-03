@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
+import '../index.css';
+import Body from '../components/body/body.js';
 
 class Test extends React.Component {
     render() {
@@ -9,9 +11,9 @@ class Test extends React.Component {
                 <div id="header">
                     här haru måns!
                 </div>
-                <div id="body">
+                <Body>
                     här ska menyn vara
-                </div>
+                </Body>
                 <div id="footer">
                     här ska footern vara
                 </div>
@@ -20,4 +22,4 @@ class Test extends React.Component {
     }
 }
 
-ReactDOM.render(<Test/>, document.getElementById("test"));
+ReactDOM.render(<Test/>, document.getElementById("root"));

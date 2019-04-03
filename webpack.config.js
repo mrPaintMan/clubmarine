@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: path.resolve(__dirname, "src/app/index.js"),
@@ -13,7 +14,14 @@ module.exports = {
             {test: /.css$/, use: ["style-loader", "css-loader"]}
         ]
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: "src/index.html"
+        })
+    ],
     devServer: {
-        contentBase: path.resolve(__dirname, "dist")
+        contentBase: path.resolve(__dirname, "dist"),
+        hot: true,
+        open: true
     }
 }
