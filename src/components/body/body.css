@@ -1,5 +1,30 @@
-.body-1 {
-    height: 50px;
-    width: 50px;
-    background-color: bisque;
+.body-container {
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.body-menu {
+    height: 90%;
+    background-color: rgb(231, 231, 231);
+    width: 80%;
+    margin: auto;
+}
+
+.menu li {
+    display: initial;
+    background-color: rgb(207, 207, 207);
+    height: 15vh;
+    width: 10vw;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+
+
 }

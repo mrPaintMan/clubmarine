@@ -7,23 +7,23 @@ class Header extends React.Component {
     render() {
         return (
             <div>
-               <div class = "container">
+               <div className = "container">
                     <section>
                       <h1>Clubmarine</h1>  
                     </section>
 
-                    <nav class = "navbar">
-                        <ul class = "nav">
-                            <li class = "nav-item first"></li>
+                    <nav className = "navbar">
+                        <ul className = "nav">
+                            <li className = "nav-item first"></li>
                                 <a href ="/">Hem</a>
-                            <li class = "nav-item"></li>
+                            <li className = "nav-item"></li>
                                 <a href ="/">Hem</a>
-                            <li class = "nav-item"></li>
+                            <li className = "nav-item"></li>
                                 <a href ="/">Hem</a>
-                            <li class = "nav-item last"></li>
+                            <li className = "nav-item last"></li>
                                 <a href ="/">Hem</a>
-                            <li class = "nav-item .fa-shopping-cart cart"></li>
-                            <li class = "nav-item .fa-search search"></li>
+                            <li className = "nav-item .fa-shopping-cart cart"></li>
+                            <li className = "nav-item .fa-search search"></li>
                         </ul>    
 
                     
